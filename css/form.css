@@ -1,0 +1,96 @@
+.form-contac{
+    width: 45%;
+    border-radius: 8px;
+    background: rgb(160,208,237);
+    background: linear-gradient(148deg, rgba(215, 160, 237, 0.591) 33%, rgb(179, 69, 252) 77%);
+    border:1px solid rgb(250, 250, 250);
+    padding: 3%;
+    margin-top: 1%;
+    margin-left: 3%;
+    display: inline-table;
+}
+label{
+    color: #000;
+    font-size: 23px;
+    font-family: 'OpenSans-Regular';
+    font-weight: 800;
+    padding: 4px;
+    margin-top: 3px;
+    text-shadow: 2px 3px 2px rgb(182, 140, 140);
+}
+textarea{
+    width: 390px;
+    height: 190px;
+    border:1px solid #fff;
+    border-radius: 4px;
+    margin-top: 12px;
+
+}
+.btn{
+    color: #fff;
+    width: 90px;
+    height: 40px;
+    margin-top: 70px;
+    padding: 10px;
+    border: 1px solid rgb(94, 5, 5);
+    background: #c01627;
+    text-align: center;
+    margin-left: 4px;
+    border-radius: 3px;
+}
+.btn:hover{
+    font-weight: 300;
+    color: rgb(182, 140, 140);
+    background: #ade268;
+    cursor: pointer;
+    transition: .6s;
+    border: 1px solid #ffff;
+}
+input {
+    width: 230px;
+    height: 20px;
+    float: right;
+    padding: 0px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+}
+input:hover{
+     background: #fff !important;
+     transition: .6s;
+     border-color: #090979;
+
+    /* box-shadow: -2px 3px 2p #555;*/
+}
+
+input:focus{
+    border-color: #090979;
+    outline: 0;
+
+}
+input:active{
+    border-color: #090979;
+    outline: 0;
+}
+
+.grid-container{
+    display: block;
+    width: 100%;
+}
+
+.item1{
+    width: 100%;
+}
+
+.item2{
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.forn-input{
+    width: 70%;
+    display: block;
+    margin: 1%;
+}
